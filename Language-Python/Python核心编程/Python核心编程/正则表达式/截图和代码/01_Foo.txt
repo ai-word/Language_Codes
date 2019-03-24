@@ -1,0 +1,28 @@
+构造一个类Foo
+
+用python的魔法方法实现
+
+class Foo
+
+print(Foo().think.different.itcast.itheima)
+
+think different itcast itheima
+
+__init__
+
+__str__
+
+__new__
+
+__del__
+
+__call__
+
+__repr__
+
+def __getattr__(self, item):
+    pass
+
+
+
+

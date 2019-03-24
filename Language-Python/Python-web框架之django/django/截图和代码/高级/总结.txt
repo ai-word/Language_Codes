@@ -1,0 +1,19 @@
+模板：变量{{}}、标签{%%}、过滤器|、注释{##}、
+	继承:block,extends,block 名称
+	转义|safe,{%aotoescape off%}
+	csrf
+
+http://127.0.0.1:8000/uploadpic
+
+/uploadHandle---->http://127.0.0.1:8000/uploadHandle
+uploadHandle----->http://127.0.0.1:8000/uploadpic/uploadHandle
+静态文件
+http://127.0.0.1:8000/abc/a.jpg
+
+www.itcast.cn/?a=1
+
+
+分页：将英雄信息每页5条显示，并显示出来分页数字栏
+
+
+

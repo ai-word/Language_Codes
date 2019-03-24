@@ -1,0 +1,18 @@
+高可扩展性
+向后兼容
+低耦合，高内聚
+
+项目的入口：manage.py
+项目的配置：test1
+项目的开发：自定义应用
+
+虚拟环境：workon,mkvirtualenv,rmvirtualenv,deactivate
+	pip list,pip install
+django的命令：django-admin startproject
+	python manage.py startapp
+	python manage.py makemigrations
+	python manage.py migrate
+	python manage.py runserver
+	python manage.py createsuperuser
+admin的使用admin.py
+	admin.site.register(模型类,admin类)

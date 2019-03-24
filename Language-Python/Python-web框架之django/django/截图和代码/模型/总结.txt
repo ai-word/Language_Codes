@@ -1,0 +1,27 @@
+开发流程：
+step1:创建虚拟环境
+step2:安装django
+step3:创建项目
+step4:创建应用
+step5:在models.py中定义模型类
+step6:定义视图
+step7:配置url
+step8:创建模板
+
+
+BookInfo
+
+HeroInfo
+	book=models.ForeignKey(BookInfo)
+
+
+英雄对象hero.book.id
+	hero.book_id
+书对象book.heroinfo_set
+
+管理器是模型类的属性，用于将对象与数据表映射
+
+
+
+周勋
+刘亚奇

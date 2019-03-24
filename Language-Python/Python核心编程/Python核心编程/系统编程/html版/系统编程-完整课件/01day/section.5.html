@@ -1,0 +1,688 @@
+<!DOCTYPE HTML>
+<html lang="zh-tw" >
+    <!-- Start book python基础语言 -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>进程间通信-Queue | python基础语言</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-splitter/splitter.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-emphasize/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../02day/index.html" />
+    
+    
+    <link rel="prev" href="../01day/section.5.2.html" />
+    
+
+        <!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <div class="book"
+        data-level="1.9"
+        data-chapter-title="进程间通信-Queue"
+        data-filepath="01day/section.5.md"
+        data-basepath=".."
+        data-revision="Mon Mar 20 2017 08:19:34 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        课程介绍
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="01day/index.html">
+            
+                
+                    <a href="../01day/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        进程
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="02day/section.1.html">
+            
+                
+                    <a href="../02day/section.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        多任务的引入
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="02day/section.1.1.html">
+            
+                
+                    <a href="../02day/section.1.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        多任务的概念
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="01day/section.1.html">
+            
+                
+                    <a href="../01day/section.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        进程的创建-fork
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="01day/section.1.1.html">
+            
+                
+                    <a href="../01day/section.1.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        多进程修改全局变量
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="01day/section.1.2.html">
+            
+                
+                    <a href="../01day/section.1.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        多次fork问题
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="01day/section.2.html">
+            
+                
+                    <a href="../01day/section.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        进程的创建-multiprocessing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="01day/section.2.2.html">
+            
+                
+                    <a href="../01day/section.2.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        进程的创建-Process子类
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="01day/section.5.2.html">
+            
+                
+                    <a href="../01day/section.5.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        进程池Pool
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.9" data-path="01day/section.5.html">
+            
+                
+                    <a href="../01day/section.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        进程间通信-Queue
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="02day/index.html">
+            
+                
+                    <a href="../02day/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        线程
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="02day/section.3.html">
+            
+                
+                    <a href="../02day/section.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        多线程-threading
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="02day/section.3.1.html">
+            
+                
+                    <a href="../02day/section.3.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        threading注意点
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="02day/section.13.html">
+            
+                
+                    <a href="../02day/section.13.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        多线程-共享全局变量
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="02day/section.11.html">
+            
+                
+                    <a href="../02day/section.11.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        进程、线程对比
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="02day/section.4.1.html">
+            
+                
+                    <a href="../02day/section.4.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        同步
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="02day/section.4.html">
+            
+                
+                    <a href="../02day/section.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        互斥锁
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="02day/section.4.2.html">
+            
+                
+                    <a href="../02day/section.4.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        多线程-非共享数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="02day/section.5.html">
+            
+                
+                    <a href="../02day/section.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        死锁
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="02day/section.5.2.html">
+            
+                
+                    <a href="../02day/section.5.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.9.</b>
+                        
+                        同步应用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="02day/section.7.html">
+            
+                
+                    <a href="../02day/section.7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.10.</b>
+                        
+                        生产者与消费者模式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="02day/section.10.html">
+            
+                
+                    <a href="../02day/section.10.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.11.</b>
+                        
+                        ThreadLocal
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12" data-path="02day/section.4.1.2.html">
+            
+                
+                    <a href="../02day/section.4.1.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.12.</b>
+                        
+                        异步
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    本書使用 GitBook 釋出
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >python基础语言</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="&#x8FDB;&#x7A0B;&#x95F4;&#x901A;&#x4FE1;queue">&#x8FDB;&#x7A0B;&#x95F4;&#x901A;&#x4FE1;-Queue</h1>
+<p>Process&#x4E4B;&#x95F4;&#x6709;&#x65F6;&#x9700;&#x8981;&#x901A;&#x4FE1;&#xFF0C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x63D0;&#x4F9B;&#x4E86;&#x5F88;&#x591A;&#x673A;&#x5236;&#x6765;&#x5B9E;&#x73B0;&#x8FDB;&#x7A0B;&#x95F4;&#x7684;&#x901A;&#x4FE1;&#x3002;</p>
+<h2 id="1-queue&#x7684;&#x4F7F;&#x7528;">1. Queue&#x7684;&#x4F7F;&#x7528;</h2>
+<p>&#x53EF;&#x4EE5;&#x4F7F;&#x7528;multiprocessing&#x6A21;&#x5757;&#x7684;Queue&#x5B9E;&#x73B0;&#x591A;&#x8FDB;&#x7A0B;&#x4E4B;&#x95F4;&#x7684;&#x6570;&#x636E;&#x4F20;&#x9012;&#xFF0C;Queue&#x672C;&#x8EAB;&#x662F;&#x4E00;&#x4E2A;&#x6D88;&#x606F;&#x5217;&#x961F;&#x7A0B;&#x5E8F;&#xFF0C;&#x9996;&#x5148;&#x7528;&#x4E00;&#x4E2A;&#x5C0F;&#x5B9E;&#x4F8B;&#x6765;&#x6F14;&#x793A;&#x4E00;&#x4E0B;Queue&#x7684;&#x5DE5;&#x4F5C;&#x539F;&#x7406;&#xFF1A;</p>
+<pre><code class="lang-python">
+<span class="hljs-comment">#coding=utf-8</span>
+<span class="hljs-keyword">from</span> multiprocessing <span class="hljs-keyword">import</span> Queue
+q=Queue(<span class="hljs-number">3</span>) <span class="hljs-comment">#&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;Queue&#x5BF9;&#x8C61;&#xFF0C;&#x6700;&#x591A;&#x53EF;&#x63A5;&#x6536;&#x4E09;&#x6761;put&#x6D88;&#x606F;</span>
+q.put(<span class="hljs-string">&quot;&#x6D88;&#x606F;1&quot;</span>) 
+q.put(<span class="hljs-string">&quot;&#x6D88;&#x606F;2&quot;</span>)
+print(q.full())  <span class="hljs-comment">#False</span>
+q.put(<span class="hljs-string">&quot;&#x6D88;&#x606F;3&quot;</span>)
+print(q.full()) <span class="hljs-comment">#True</span>
+
+<span class="hljs-comment">#&#x56E0;&#x4E3A;&#x6D88;&#x606F;&#x5217;&#x961F;&#x5DF2;&#x6EE1;&#x4E0B;&#x9762;&#x7684;try&#x90FD;&#x4F1A;&#x629B;&#x51FA;&#x5F02;&#x5E38;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;try&#x4F1A;&#x7B49;&#x5F85;2&#x79D2;&#x540E;&#x518D;&#x629B;&#x51FA;&#x5F02;&#x5E38;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;Try&#x4F1A;&#x7ACB;&#x523B;&#x629B;&#x51FA;&#x5F02;&#x5E38;</span>
+<span class="hljs-keyword">try</span>:
+    q.put(<span class="hljs-string">&quot;&#x6D88;&#x606F;4&quot;</span>,<span class="hljs-keyword">True</span>,<span class="hljs-number">2</span>)
+<span class="hljs-keyword">except</span>:
+    print(<span class="hljs-string">&quot;&#x6D88;&#x606F;&#x5217;&#x961F;&#x5DF2;&#x6EE1;&#xFF0C;&#x73B0;&#x6709;&#x6D88;&#x606F;&#x6570;&#x91CF;:%s&quot;</span>%q.qsize())
+
+<span class="hljs-keyword">try</span>:
+    q.put_nowait(<span class="hljs-string">&quot;&#x6D88;&#x606F;4&quot;</span>)
+<span class="hljs-keyword">except</span>:
+    print(<span class="hljs-string">&quot;&#x6D88;&#x606F;&#x5217;&#x961F;&#x5DF2;&#x6EE1;&#xFF0C;&#x73B0;&#x6709;&#x6D88;&#x606F;&#x6570;&#x91CF;:%s&quot;</span>%q.qsize())
+
+<span class="hljs-comment">#&#x63A8;&#x8350;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x5148;&#x5224;&#x65AD;&#x6D88;&#x606F;&#x5217;&#x961F;&#x662F;&#x5426;&#x5DF2;&#x6EE1;&#xFF0C;&#x518D;&#x5199;&#x5165;</span>
+<span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> q.full():
+    q.put_nowait(<span class="hljs-string">&quot;&#x6D88;&#x606F;4&quot;</span>)
+
+<span class="hljs-comment">#&#x8BFB;&#x53D6;&#x6D88;&#x606F;&#x65F6;&#xFF0C;&#x5148;&#x5224;&#x65AD;&#x6D88;&#x606F;&#x5217;&#x961F;&#x662F;&#x5426;&#x4E3A;&#x7A7A;&#xFF0C;&#x518D;&#x8BFB;&#x53D6;</span>
+<span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> q.empty():
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(q.qsize()):
+        print(q.get_nowait())
+</code></pre>
+<p>&#x8FD0;&#x884C;&#x7ED3;&#x679C;:</p>
+<pre><code class="lang-python">
+<span class="hljs-keyword">False</span>
+<span class="hljs-keyword">True</span>
+&#x6D88;&#x606F;&#x5217;&#x961F;&#x5DF2;&#x6EE1;&#xFF0C;&#x73B0;&#x6709;&#x6D88;&#x606F;&#x6570;&#x91CF;:<span class="hljs-number">3</span>
+&#x6D88;&#x606F;&#x5217;&#x961F;&#x5DF2;&#x6EE1;&#xFF0C;&#x73B0;&#x6709;&#x6D88;&#x606F;&#x6570;&#x91CF;:<span class="hljs-number">3</span>
+&#x6D88;&#x606F;<span class="hljs-number">1</span>
+&#x6D88;&#x606F;<span class="hljs-number">2</span>
+&#x6D88;&#x606F;<span class="hljs-number">3</span>
+</code></pre>
+<h4 id="&#x8BF4;&#x660E;">&#x8BF4;&#x660E;</h4>
+<p>&#x521D;&#x59CB;&#x5316;Queue()&#x5BF9;&#x8C61;&#x65F6;&#xFF08;&#x4F8B;&#x5982;&#xFF1A;q=Queue()&#xFF09;&#xFF0C;&#x82E5;&#x62EC;&#x53F7;&#x4E2D;&#x6CA1;&#x6709;&#x6307;&#x5B9A;&#x6700;&#x5927;&#x53EF;&#x63A5;&#x6536;&#x7684;&#x6D88;&#x606F;&#x6570;&#x91CF;&#xFF0C;&#x6216;&#x6570;&#x91CF;&#x4E3A;&#x8D1F;&#x503C;&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x4EE3;&#x8868;&#x53EF;&#x63A5;&#x53D7;&#x7684;&#x6D88;&#x606F;&#x6570;&#x91CF;&#x6CA1;&#x6709;&#x4E0A;&#x9650;&#xFF08;&#x76F4;&#x5230;&#x5185;&#x5B58;&#x7684;&#x5C3D;&#x5934;&#xFF09;&#xFF1B;</p>
+<ul>
+<li><p>Queue.qsize()&#xFF1A;&#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x961F;&#x5217;&#x5305;&#x542B;&#x7684;&#x6D88;&#x606F;&#x6570;&#x91CF;&#xFF1B;</p>
+</li>
+<li><p>Queue.empty()&#xFF1A;&#x5982;&#x679C;&#x961F;&#x5217;&#x4E3A;&#x7A7A;&#xFF0C;&#x8FD4;&#x56DE;True&#xFF0C;&#x53CD;&#x4E4B;False &#xFF1B;</p>
+</li>
+<li><p>Queue.full()&#xFF1A;&#x5982;&#x679C;&#x961F;&#x5217;&#x6EE1;&#x4E86;&#xFF0C;&#x8FD4;&#x56DE;True,&#x53CD;&#x4E4B;False&#xFF1B;</p>
+</li>
+<li><p>Queue.get([block[, timeout]])&#xFF1A;&#x83B7;&#x53D6;&#x961F;&#x5217;&#x4E2D;&#x7684;&#x4E00;&#x6761;&#x6D88;&#x606F;&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x5176;&#x4ECE;&#x5217;&#x961F;&#x4E2D;&#x79FB;&#x9664;&#xFF0C;block&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;True&#xFF1B;</p>
+</li>
+</ul>
+<p>1&#xFF09;&#x5982;&#x679C;block&#x4F7F;&#x7528;&#x9ED8;&#x8BA4;&#x503C;&#xFF0C;&#x4E14;&#x6CA1;&#x6709;&#x8BBE;&#x7F6E;timeout&#xFF08;&#x5355;&#x4F4D;&#x79D2;&#xFF09;&#xFF0C;&#x6D88;&#x606F;&#x5217;&#x961F;&#x5982;&#x679C;&#x4E3A;&#x7A7A;&#xFF0C;&#x6B64;&#x65F6;&#x7A0B;&#x5E8F;&#x5C06;&#x88AB;&#x963B;&#x585E;&#xFF08;&#x505C;&#x5728;&#x8BFB;&#x53D6;&#x72B6;&#x6001;&#xFF09;&#xFF0C;&#x76F4;&#x5230;&#x4ECE;&#x6D88;&#x606F;&#x5217;&#x961F;&#x8BFB;&#x5230;&#x6D88;&#x606F;&#x4E3A;&#x6B62;&#xFF0C;&#x5982;&#x679C;&#x8BBE;&#x7F6E;&#x4E86;timeout&#xFF0C;&#x5219;&#x4F1A;&#x7B49;&#x5F85;timeout&#x79D2;&#xFF0C;&#x82E5;&#x8FD8;&#x6CA1;&#x8BFB;&#x53D6;&#x5230;&#x4EFB;&#x4F55;&#x6D88;&#x606F;&#xFF0C;&#x5219;&#x629B;&#x51FA;&quot;Queue.Empty&quot;&#x5F02;&#x5E38;&#xFF1B;</p>
+<p>2&#xFF09;&#x5982;&#x679C;block&#x503C;&#x4E3A;False&#xFF0C;&#x6D88;&#x606F;&#x5217;&#x961F;&#x5982;&#x679C;&#x4E3A;&#x7A7A;&#xFF0C;&#x5219;&#x4F1A;&#x7ACB;&#x523B;&#x629B;&#x51FA;&quot;Queue.Empty&quot;&#x5F02;&#x5E38;&#xFF1B;</p>
+<ul>
+<li><p>Queue.get_nowait()&#xFF1A;&#x76F8;&#x5F53;Queue.get(False)&#xFF1B;</p>
+</li>
+<li><p>Queue.put(item,[block[, timeout]])&#xFF1A;&#x5C06;item&#x6D88;&#x606F;&#x5199;&#x5165;&#x961F;&#x5217;&#xFF0C;block&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;True&#xFF1B;</p>
+</li>
+</ul>
+<p>1&#xFF09;&#x5982;&#x679C;block&#x4F7F;&#x7528;&#x9ED8;&#x8BA4;&#x503C;&#xFF0C;&#x4E14;&#x6CA1;&#x6709;&#x8BBE;&#x7F6E;timeout&#xFF08;&#x5355;&#x4F4D;&#x79D2;&#xFF09;&#xFF0C;&#x6D88;&#x606F;&#x5217;&#x961F;&#x5982;&#x679C;&#x5DF2;&#x7ECF;&#x6CA1;&#x6709;&#x7A7A;&#x95F4;&#x53EF;&#x5199;&#x5165;&#xFF0C;&#x6B64;&#x65F6;&#x7A0B;&#x5E8F;&#x5C06;&#x88AB;&#x963B;&#x585E;&#xFF08;&#x505C;&#x5728;&#x5199;&#x5165;&#x72B6;&#x6001;&#xFF09;&#xFF0C;&#x76F4;&#x5230;&#x4ECE;&#x6D88;&#x606F;&#x5217;&#x961F;&#x817E;&#x51FA;&#x7A7A;&#x95F4;&#x4E3A;&#x6B62;&#xFF0C;&#x5982;&#x679C;&#x8BBE;&#x7F6E;&#x4E86;timeout&#xFF0C;&#x5219;&#x4F1A;&#x7B49;&#x5F85;timeout&#x79D2;&#xFF0C;&#x82E5;&#x8FD8;&#x6CA1;&#x7A7A;&#x95F4;&#xFF0C;&#x5219;&#x629B;&#x51FA;&quot;Queue.Full&quot;&#x5F02;&#x5E38;&#xFF1B;</p>
+<p>2&#xFF09;&#x5982;&#x679C;block&#x503C;&#x4E3A;False&#xFF0C;&#x6D88;&#x606F;&#x5217;&#x961F;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x7A7A;&#x95F4;&#x53EF;&#x5199;&#x5165;&#xFF0C;&#x5219;&#x4F1A;&#x7ACB;&#x523B;&#x629B;&#x51FA;&quot;Queue.Full&quot;&#x5F02;&#x5E38;&#xFF1B;</p>
+<ul>
+<li>Queue.put_nowait(item)&#xFF1A;&#x76F8;&#x5F53;Queue.put(item, False)&#xFF1B;</li>
+</ul>
+<h2 id="2-queue&#x5B9E;&#x4F8B;">2. Queue&#x5B9E;&#x4F8B;</h2>
+<p>&#x6211;&#x4EEC;&#x4EE5;Queue&#x4E3A;&#x4F8B;&#xFF0C;&#x5728;&#x7236;&#x8FDB;&#x7A0B;&#x4E2D;&#x521B;&#x5EFA;&#x4E24;&#x4E2A;&#x5B50;&#x8FDB;&#x7A0B;&#xFF0C;&#x4E00;&#x4E2A;&#x5F80;Queue&#x91CC;&#x5199;&#x6570;&#x636E;&#xFF0C;&#x4E00;&#x4E2A;&#x4ECE;Queue&#x91CC;&#x8BFB;&#x6570;&#x636E;&#xFF1A;</p>
+<pre><code class="lang-python"><span class="hljs-keyword">from</span> multiprocessing <span class="hljs-keyword">import</span> Process, Queue
+<span class="hljs-keyword">import</span> os, time, random
+
+<span class="hljs-comment"># &#x5199;&#x6570;&#x636E;&#x8FDB;&#x7A0B;&#x6267;&#x884C;&#x7684;&#x4EE3;&#x7801;:</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">write</span><span class="hljs-params">(q)</span>:</span>
+    <span class="hljs-keyword">for</span> value <span class="hljs-keyword">in</span> [<span class="hljs-string">&apos;A&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>, <span class="hljs-string">&apos;C&apos;</span>]:
+        <span class="hljs-keyword">print</span> <span class="hljs-string">&apos;Put %s to queue...&apos;</span> % value
+        q.put(value)
+        time.sleep(random.random())
+
+<span class="hljs-comment"># &#x8BFB;&#x6570;&#x636E;&#x8FDB;&#x7A0B;&#x6267;&#x884C;&#x7684;&#x4EE3;&#x7801;:</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">read</span><span class="hljs-params">(q)</span>:</span>
+    <span class="hljs-keyword">while</span> <span class="hljs-keyword">True</span>:
+        <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> q.empty():
+            value = q.get(<span class="hljs-keyword">True</span>)
+            <span class="hljs-keyword">print</span> <span class="hljs-string">&apos;Get %s from queue.&apos;</span> % value
+            time.sleep(random.random())
+        <span class="hljs-keyword">else</span>:
+            <span class="hljs-keyword">break</span>
+
+<span class="hljs-keyword">if</span> __name__==<span class="hljs-string">&apos;__main__&apos;</span>:
+    <span class="hljs-comment"># &#x7236;&#x8FDB;&#x7A0B;&#x521B;&#x5EFA;Queue&#xFF0C;&#x5E76;&#x4F20;&#x7ED9;&#x5404;&#x4E2A;&#x5B50;&#x8FDB;&#x7A0B;&#xFF1A;</span>
+    q = Queue()
+    pw = Process(target=write, args=(q,))
+    pr = Process(target=read, args=(q,))
+    <span class="hljs-comment"># &#x542F;&#x52A8;&#x5B50;&#x8FDB;&#x7A0B;pw&#xFF0C;&#x5199;&#x5165;:</span>
+    pw.start()    
+    <span class="hljs-comment"># &#x7B49;&#x5F85;pw&#x7ED3;&#x675F;:</span>
+    pw.join()
+    <span class="hljs-comment"># &#x542F;&#x52A8;&#x5B50;&#x8FDB;&#x7A0B;pr&#xFF0C;&#x8BFB;&#x53D6;:</span>
+    pr.start()
+    pr.join()
+    <span class="hljs-comment"># pr&#x8FDB;&#x7A0B;&#x91CC;&#x662F;&#x6B7B;&#x5FAA;&#x73AF;&#xFF0C;&#x65E0;&#x6CD5;&#x7B49;&#x5F85;&#x5176;&#x7ED3;&#x675F;&#xFF0C;&#x53EA;&#x80FD;&#x5F3A;&#x884C;&#x7EC8;&#x6B62;:</span>
+    <span class="hljs-keyword">print</span> <span class="hljs-string">&apos;&apos;</span>
+    <span class="hljs-keyword">print</span> <span class="hljs-string">&apos;&#x6240;&#x6709;&#x6570;&#x636E;&#x90FD;&#x5199;&#x5165;&#x5E76;&#x4E14;&#x8BFB;&#x5B8C;&apos;</span>
+</code></pre>
+<p>&#x8FD0;&#x884C;&#x7ED3;&#x679C;&#xFF1A;</p>
+<p><img src="../Images/6.gif" alt=""></p>
+<h2 id="3-&#x8FDB;&#x7A0B;&#x6C60;&#x4E2D;&#x7684;queue">3. &#x8FDB;&#x7A0B;&#x6C60;&#x4E2D;&#x7684;Queue</h2>
+<p>&#x5982;&#x679C;&#x8981;&#x4F7F;&#x7528;Pool&#x521B;&#x5EFA;&#x8FDB;&#x7A0B;&#xFF0C;&#x5C31;&#x9700;&#x8981;&#x4F7F;&#x7528;multiprocessing.Manager()&#x4E2D;&#x7684;Queue()&#xFF0C;&#x800C;&#x4E0D;&#x662F;multiprocessing.Queue()&#xFF0C;&#x5426;&#x5219;&#x4F1A;&#x5F97;&#x5230;&#x4E00;&#x6761;&#x5982;&#x4E0B;&#x7684;&#x9519;&#x8BEF;&#x4FE1;&#x606F;&#xFF1A;</p>
+<p>RuntimeError: Queue objects should only be shared between processes through inheritance.</p>
+<p>&#x4E0B;&#x9762;&#x7684;&#x5B9E;&#x4F8B;&#x6F14;&#x793A;&#x4E86;&#x8FDB;&#x7A0B;&#x6C60;&#x4E2D;&#x7684;&#x8FDB;&#x7A0B;&#x5982;&#x4F55;&#x901A;&#x4FE1;&#xFF1A;</p>
+<pre><code class="lang-python">
+<span class="hljs-comment">#coding=utf-8</span>
+
+<span class="hljs-comment">#&#x4FEE;&#x6539;import&#x4E2D;&#x7684;Queue&#x4E3A;Manager</span>
+<span class="hljs-keyword">from</span> multiprocessing <span class="hljs-keyword">import</span> Manager,Pool
+<span class="hljs-keyword">import</span> os,time,random
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">reader</span><span class="hljs-params">(q)</span>:</span>
+    print(<span class="hljs-string">&quot;reader&#x542F;&#x52A8;(%s),&#x7236;&#x8FDB;&#x7A0B;&#x4E3A;(%s)&quot;</span>%(os.getpid(),os.getppid()))
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(q.qsize()):
+        print(<span class="hljs-string">&quot;reader&#x4ECE;Queue&#x83B7;&#x53D6;&#x5230;&#x6D88;&#x606F;&#xFF1A;%s&quot;</span>%q.get(<span class="hljs-keyword">True</span>))
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">writer</span><span class="hljs-params">(q)</span>:</span>
+    print(<span class="hljs-string">&quot;writer&#x542F;&#x52A8;(%s),&#x7236;&#x8FDB;&#x7A0B;&#x4E3A;(%s)&quot;</span>%(os.getpid(),os.getppid()))
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-string">&quot;dongGe&quot;</span>:
+        q.put(i)
+
+<span class="hljs-keyword">if</span> __name__==<span class="hljs-string">&quot;__main__&quot;</span>:
+    print(<span class="hljs-string">&quot;(%s) start&quot;</span>%os.getpid())
+    q=Manager().Queue() <span class="hljs-comment">#&#x4F7F;&#x7528;Manager&#x4E2D;&#x7684;Queue&#x6765;&#x521D;&#x59CB;&#x5316;</span>
+    po=Pool()
+    <span class="hljs-comment">#&#x4F7F;&#x7528;&#x963B;&#x585E;&#x6A21;&#x5F0F;&#x521B;&#x5EFA;&#x8FDB;&#x7A0B;&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x4E0D;&#x9700;&#x8981;&#x5728;reader&#x4E2D;&#x4F7F;&#x7528;&#x6B7B;&#x5FAA;&#x73AF;&#x4E86;&#xFF0C;&#x53EF;&#x4EE5;&#x8BA9;writer&#x5B8C;&#x5168;&#x6267;&#x884C;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x518D;&#x7528;reader&#x53BB;&#x8BFB;&#x53D6;</span>
+    po.apply(writer,(q,))
+    po.apply(reader,(q,))
+    po.close()
+    po.join()
+    print(<span class="hljs-string">&quot;(%s) End&quot;</span>%os.getpid())
+</code></pre>
+<p>&#x8FD0;&#x884C;&#x7ED3;&#x679C;:</p>
+<pre><code class="lang-python">
+(<span class="hljs-number">21156</span>) start
+writer&#x542F;&#x52A8;(<span class="hljs-number">21162</span>),&#x7236;&#x8FDB;&#x7A0B;&#x4E3A;(<span class="hljs-number">21156</span>)
+reader&#x542F;&#x52A8;(<span class="hljs-number">21162</span>),&#x7236;&#x8FDB;&#x7A0B;&#x4E3A;(<span class="hljs-number">21156</span>)
+reader&#x4ECE;Queue&#x83B7;&#x53D6;&#x5230;&#x6D88;&#x606F;&#xFF1A;d
+reader&#x4ECE;Queue&#x83B7;&#x53D6;&#x5230;&#x6D88;&#x606F;&#xFF1A;o
+reader&#x4ECE;Queue&#x83B7;&#x53D6;&#x5230;&#x6D88;&#x606F;&#xFF1A;n
+reader&#x4ECE;Queue&#x83B7;&#x53D6;&#x5230;&#x6D88;&#x606F;&#xFF1A;g
+reader&#x4ECE;Queue&#x83B7;&#x53D6;&#x5230;&#x6D88;&#x606F;&#xFF1A;G
+reader&#x4ECE;Queue&#x83B7;&#x53D6;&#x5230;&#x6D88;&#x606F;&#xFF1A;e
+(<span class="hljs-number">21156</span>) End
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../01day/section.5.2.html" class="navigation navigation-prev " aria-label="Previous page: 进程池Pool"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../02day/index.html" class="navigation navigation-next " aria-label="Next page: 线程"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-splitter/splitter.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"toggle-chapters":{},"splitter":{},"emphasize":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book python基础语言 -->
+</html>

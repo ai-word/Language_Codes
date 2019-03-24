@@ -1,0 +1,21 @@
+git config --global user.name ''
+git config --global user.email 12@34.com
+
+
+uwsgi
+socket=127.0.0.1:8000
+
+nginx
+http{
+  server{
+     listen 80
+     location / {uwsgi_pass 127.0.0.1:8000}
+     location /static {alias}
+  }
+}
+
+从github初始化本地项目：git clone ....
+本地操作，添加git add,git commit,git push oringin master
+从github同步：git pull
+历史版本：git reset 版本号，git checkout 文件名
+查看历史操作：git log

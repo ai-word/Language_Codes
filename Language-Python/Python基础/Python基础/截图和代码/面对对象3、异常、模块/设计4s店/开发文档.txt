@@ -1,0 +1,5 @@
+开发文档
+
+def select_car_by_type(car_type)
+功能：返回一个汽车对象的引用
+参数：需要得到汽车的类型

@@ -1,0 +1,1048 @@
+<!DOCTYPE HTML>
+<html lang="zh-tw" >
+    <!-- Start book python基础语言 -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>多进程服务器 | python基础语言</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-splitter/splitter.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-emphasize/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../04day/section.1.4.html" />
+    
+    
+    <link rel="prev" href="../04day/section.1.1.html" />
+    
+
+        <!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <div class="book"
+        data-level="4.2"
+        data-chapter-title="多进程服务器"
+        data-filepath="04day/section.1.2.md"
+        data-basepath=".."
+        data-revision="Mon Mar 20 2017 18:45:21 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        课程介绍
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="01day/index.html">
+            
+                
+                    <a href="../01day/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        网络概述、udp
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="01day/section.1.html">
+            
+                
+                    <a href="../01day/section.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        网络通信概述
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01day/section.2.html">
+            
+                
+                    <a href="../01day/section.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        tcp/ip简介
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="01day/section.3.html">
+            
+                
+                    <a href="../01day/section.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        端口
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="01day/section.4.html">
+            
+                
+                    <a href="../01day/section.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        ip地址
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="01day/section.5.html">
+            
+                
+                    <a href="../01day/section.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        子网掩码
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="01day/section.6.html">
+            
+                
+                    <a href="../01day/section.6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        socket简介
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="01day/section.9.html">
+            
+                
+                    <a href="../01day/section.9.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        udp介绍
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="01day/section.7.html">
+            
+                
+                    <a href="../01day/section.7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        udp网络程序-发送数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="01day/section.7.1.html">
+            
+                
+                    <a href="../01day/section.7.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        udp网络程序-发送、接收数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="01day/section.7.2.html">
+            
+                
+                    <a href="../01day/section.7.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.10.</b>
+                        
+                        udp网络程序-端口问题
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="01day/section.8.html">
+            
+                
+                    <a href="../01day/section.8.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.11.</b>
+                        
+                        udp绑定信息
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="01day/section.8.5.html">
+            
+                
+                    <a href="../01day/section.8.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.12.</b>
+                        
+                        udp网络通信过程
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="01day/section.8.1.html">
+            
+                
+                    <a href="../01day/section.8.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.13.</b>
+                        
+                        udp应用：echo服务器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="01day/section.8.2.html">
+            
+                
+                    <a href="../01day/section.8.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.14.</b>
+                        
+                        udp应用：聊天室
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="01day/section.8.3.html">
+            
+                
+                    <a href="../01day/section.8.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.15.</b>
+                        
+                        udp总结
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="01day/section.8.4.html">
+            
+                
+                    <a href="../01day/section.8.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.16.</b>
+                        
+                        udp综合作业-模拟QQ
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="02day/index.html">
+            
+                
+                    <a href="../02day/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        TFTP项目、TCP编程
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="02day/section.1.html">
+            
+                
+                    <a href="../02day/section.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        wireshark抓包工具使用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="02day/section.2.html">
+            
+                
+                    <a href="../02day/section.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        TFTP下载演示
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="02day/section.3.html">
+            
+                
+                    <a href="../02day/section.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        应用：TFTP客户端
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="02day/section.4.html">
+            
+                
+                    <a href="../02day/section.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        udp广播
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="02day/section.5.html">
+            
+                
+                    <a href="../02day/section.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        tcp相关介绍
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="02day/section.6.html">
+            
+                
+                    <a href="../02day/section.6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        tcp服务器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="02day/section.7.html">
+            
+                
+                    <a href="../02day/section.7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        tcp客户端
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="02day/section.8.html">
+            
+                
+                    <a href="../02day/section.8.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        应用：模拟QQ聊天
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="03day/index.html">
+            
+                
+                    <a href="../03day/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        网络通信过程详解
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="03day/section.1.1.html">
+            
+                
+                    <a href="../03day/section.1.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Packet Tracer网络通信过程
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="03day/section.1.2.html">
+            
+                
+                    <a href="../03day/section.1.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        2台电脑组网
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="03day/section.1.3.html">
+            
+                
+                    <a href="../03day/section.1.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        通过集线器组网
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="03day/section.1.4.html">
+            
+                
+                    <a href="../03day/section.1.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        通过交换机组网
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="03day/section.1.5.html">
+            
+                
+                    <a href="../03day/section.1.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        通过路由器组网
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="03day/section.1.6.html">
+            
+                
+                    <a href="../03day/section.1.6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        交换机、路由器、服务器组网
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="03day/section.2.1.html">
+            
+                
+                    <a href="../03day/section.2.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.</b>
+                        
+                        tcp三次挥手
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="03day/section.2.2.html">
+            
+                
+                    <a href="../03day/section.2.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.</b>
+                        
+                        tcp四次挥手
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="03day/section.2.3.html">
+            
+                
+                    <a href="../03day/section.2.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.9.</b>
+                        
+                        tcp十种状态
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="03day/section.2.4.html">
+            
+                
+                    <a href="../03day/section.2.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.10.</b>
+                        
+                        tcp的2MSL问题
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="03day/section.2.5.html">
+            
+                
+                    <a href="../03day/section.2.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.11.</b>
+                        
+                        tcp长连接和短连接
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="03day/section.2.6.html">
+            
+                
+                    <a href="../03day/section.2.6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.12.</b>
+                        
+                        listen的队列长度
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="03day/section.3.html">
+            
+                
+                    <a href="../03day/section.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.13.</b>
+                        
+                        手动配置ip
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="03day/section.4.html">
+            
+                
+                    <a href="../03day/section.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.14.</b>
+                        
+                        常见网络攻击案例
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="03day/section.5.html">
+            
+                
+                    <a href="../03day/section.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.15.</b>
+                        
+                        家庭上网解析
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="04day/index.html">
+            
+                
+                    <a href="../04day/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        并发服务器、HTTP协议
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="04day/section.1.1.html">
+            
+                
+                    <a href="../04day/section.1.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        单进程服务器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.2" data-path="04day/section.1.2.html">
+            
+                
+                    <a href="../04day/section.1.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        多进程服务器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="04day/section.1.4.html">
+            
+                
+                    <a href="../04day/section.1.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        多线程服务器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="04day/section.2.0.html">
+            
+                
+                    <a href="../04day/section.2.0.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        单进程服务器-非堵塞模式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="04day/section.2.4.html">
+            
+                
+                    <a href="../04day/section.2.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                        单进程服务器-select版
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="04day/section.2.5.html">
+            
+                
+                    <a href="../04day/section.2.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                        单进程服务器-epoll版
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="04day/section.4.1.html">
+            
+                
+                    <a href="../04day/section.4.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.7.</b>
+                        
+                        多任务实现-协程
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="04day/section.4.1.1.html">
+            
+                
+                    <a href="../04day/section.4.1.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.</b>
+                        
+                        协程-greenlet版
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="04day/section.4.2.html">
+            
+                
+                    <a href="../04day/section.4.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.9.</b>
+                        
+                        协程-gevent版
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="04day/section.4.3.html">
+            
+                
+                    <a href="../04day/section.4.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.10.</b>
+                        
+                        单进程服务器-gevent版
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    本書使用 GitBook 釋出
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >python基础语言</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="&#x591A;&#x8FDB;&#x7A0B;&#x670D;&#x52A1;&#x5668;">&#x591A;&#x8FDB;&#x7A0B;&#x670D;&#x52A1;&#x5668;</h1>
+<h2 id="1-&#x591A;&#x8FDB;&#x7A0B;&#x670D;&#x52A1;&#x5668;">1. &#x591A;&#x8FDB;&#x7A0B;&#x670D;&#x52A1;&#x5668;</h2>
+<pre><code class="lang-python">
+<span class="hljs-keyword">from</span> socket <span class="hljs-keyword">import</span> *
+<span class="hljs-keyword">from</span> multiprocessing <span class="hljs-keyword">import</span> *
+<span class="hljs-keyword">from</span> time <span class="hljs-keyword">import</span> sleep
+
+<span class="hljs-comment"># &#x5904;&#x7406;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x8BF7;&#x6C42;&#x5E76;&#x4E3A;&#x5176;&#x670D;&#x52A1;</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">dealWithClient</span><span class="hljs-params">(newSocket,destAddr)</span>:</span>
+    <span class="hljs-keyword">while</span> <span class="hljs-keyword">True</span>:
+        recvData = newSocket.recv(<span class="hljs-number">1024</span>)
+        <span class="hljs-keyword">if</span> len(recvData)&gt;<span class="hljs-number">0</span>:
+            print(<span class="hljs-string">&apos;recv[%s]:%s&apos;</span>%(str(destAddr), recvData))
+        <span class="hljs-keyword">else</span>:
+            print(<span class="hljs-string">&apos;[%s]&#x5BA2;&#x6237;&#x7AEF;&#x5DF2;&#x7ECF;&#x5173;&#x95ED;&apos;</span>%str(destAddr))
+            <span class="hljs-keyword">break</span>
+
+    newSocket.close()
+
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>:</span>
+
+    serSocket = socket(AF_INET, SOCK_STREAM)
+    serSocket.setsockopt(SOL_SOCKET, SO_REUSEADDR  , <span class="hljs-number">1</span>)
+    localAddr = (<span class="hljs-string">&apos;&apos;</span>, <span class="hljs-number">7788</span>)
+    serSocket.bind(localAddr)
+    serSocket.listen(<span class="hljs-number">5</span>)
+
+    <span class="hljs-keyword">try</span>:
+        <span class="hljs-keyword">while</span> <span class="hljs-keyword">True</span>:
+            print(<span class="hljs-string">&apos;-----&#x4E3B;&#x8FDB;&#x7A0B;&#xFF0C;&#xFF0C;&#x7B49;&#x5F85;&#x65B0;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x5230;&#x6765;------&apos;</span>)
+            newSocket,destAddr = serSocket.accept()
+
+            print(<span class="hljs-string">&apos;-----&#x4E3B;&#x8FDB;&#x7A0B;&#xFF0C;&#xFF0C;&#x63A5;&#x4E0B;&#x6765;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x8FDB;&#x7A0B;&#x8D1F;&#x8D23;&#x6570;&#x636E;&#x5904;&#x7406;[%s]-----&apos;</span>%str(destAddr))
+            client = Process(target=dealWithClient, args=(newSocket,destAddr))
+            client.start()
+
+            <span class="hljs-comment">#&#x56E0;&#x4E3A;&#x5DF2;&#x7ECF;&#x5411;&#x5B50;&#x8FDB;&#x7A0B;&#x4E2D;copy&#x4E86;&#x4E00;&#x4EFD;&#xFF08;&#x5F15;&#x7528;&#xFF09;&#xFF0C;&#x5E76;&#x4E14;&#x7236;&#x8FDB;&#x7A0B;&#x4E2D;&#x8FD9;&#x4E2A;&#x5957;&#x63A5;&#x5B57;&#x4E5F;&#x6CA1;&#x6709;&#x7528;&#x5904;&#x4E86;</span>
+            <span class="hljs-comment">#&#x6240;&#x4EE5;&#x5173;&#x95ED;</span>
+            newSocket.close()
+    <span class="hljs-keyword">finally</span>:
+        <span class="hljs-comment">#&#x5F53;&#x4E3A;&#x6240;&#x6709;&#x7684;&#x5BA2;&#x6237;&#x7AEF;&#x670D;&#x52A1;&#x5B8C;&#x4E4B;&#x540E;&#x518D;&#x8FDB;&#x884C;&#x5173;&#x95ED;&#xFF0C;&#x8868;&#x793A;&#x4E0D;&#x518D;&#x63A5;&#x6536;&#x65B0;&#x7684;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x94FE;&#x63A5;</span>
+        serSocket.close()
+
+<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&apos;__main__&apos;</span>:
+    main()
+</code></pre>
+<h2 id="2-&#x603B;&#x7ED3;">2. &#x603B;&#x7ED3;</h2>
+<ul>
+<li>&#x901A;&#x8FC7;&#x4E3A;&#x6BCF;&#x4E2A;&#x5BA2;&#x6237;&#x7AEF;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x80FD;&#x591F;&#x540C;&#x65F6;&#x4E3A;&#x591A;&#x4E2A;&#x5BA2;&#x6237;&#x7AEF;&#x8FDB;&#x884C;&#x670D;&#x52A1;</li>
+<li>&#x5F53;&#x5BA2;&#x6237;&#x7AEF;&#x4E0D;&#x662F;&#x7279;&#x522B;&#x591A;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x8FD8;&#x884C;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x51E0;&#x767E;&#x4E0A;&#x5343;&#x4E2A;&#xFF0C;&#x5C31;&#x4E0D;&#x53EF;&#x53D6;&#x4E86;&#xFF0C;&#x56E0;&#x4E3A;&#x6BCF;&#x6B21;&#x521B;&#x5EFA;&#x8FDB;&#x7A0B;&#x7B49;&#x8FC7;&#x7A0B;&#x9700;&#x8981;&#x597D;&#x8F83;&#x5927;&#x7684;&#x8D44;&#x6E90;</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../04day/section.1.1.html" class="navigation navigation-prev " aria-label="Previous page: 单进程服务器"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../04day/section.1.4.html" class="navigation navigation-next " aria-label="Next page: 多线程服务器"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-splitter/splitter.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"toggle-chapters":{},"splitter":{},"emphasize":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book python基础语言 -->
+</html>

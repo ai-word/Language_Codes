@@ -1,0 +1,14 @@
+ORM->Manager
+惰性执行，缓存
+
+查询图书，要求图书中英雄姓‘郭’
+BookInfo
+HeroInfo
+	book
+BookInfo.objects.filter(heroinfo__hname__startswith='郭')
+
+book.heroinfo_set
+hero.book
+
+
+

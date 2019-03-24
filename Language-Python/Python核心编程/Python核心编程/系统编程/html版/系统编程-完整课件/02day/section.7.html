@@ -1,0 +1,606 @@
+<!DOCTYPE HTML>
+<html lang="zh-tw" >
+    <!-- Start book python基础语言 -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>生产者与消费者模式 | python基础语言</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-splitter/splitter.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-emphasize/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../02day/section.10.html" />
+    
+    
+    <link rel="prev" href="../02day/section.5.2.html" />
+    
+
+        <!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <div class="book"
+        data-level="2.10"
+        data-chapter-title="生产者与消费者模式"
+        data-filepath="02day/section.7.md"
+        data-basepath=".."
+        data-revision="Mon Mar 20 2017 08:19:34 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        课程介绍
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="01day/index.html">
+            
+                
+                    <a href="../01day/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        进程
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="02day/section.1.html">
+            
+                
+                    <a href="../02day/section.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        多任务的引入
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="02day/section.1.1.html">
+            
+                
+                    <a href="../02day/section.1.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        多任务的概念
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="01day/section.1.html">
+            
+                
+                    <a href="../01day/section.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        进程的创建-fork
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="01day/section.1.1.html">
+            
+                
+                    <a href="../01day/section.1.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        多进程修改全局变量
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="01day/section.1.2.html">
+            
+                
+                    <a href="../01day/section.1.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        多次fork问题
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="01day/section.2.html">
+            
+                
+                    <a href="../01day/section.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        进程的创建-multiprocessing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="01day/section.2.2.html">
+            
+                
+                    <a href="../01day/section.2.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        进程的创建-Process子类
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="01day/section.5.2.html">
+            
+                
+                    <a href="../01day/section.5.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        进程池Pool
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="01day/section.5.html">
+            
+                
+                    <a href="../01day/section.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        进程间通信-Queue
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="02day/index.html">
+            
+                
+                    <a href="../02day/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        线程
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="02day/section.3.html">
+            
+                
+                    <a href="../02day/section.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        多线程-threading
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="02day/section.3.1.html">
+            
+                
+                    <a href="../02day/section.3.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        threading注意点
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="02day/section.13.html">
+            
+                
+                    <a href="../02day/section.13.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        多线程-共享全局变量
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="02day/section.11.html">
+            
+                
+                    <a href="../02day/section.11.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        进程、线程对比
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="02day/section.4.1.html">
+            
+                
+                    <a href="../02day/section.4.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        同步
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="02day/section.4.html">
+            
+                
+                    <a href="../02day/section.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        互斥锁
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="02day/section.4.2.html">
+            
+                
+                    <a href="../02day/section.4.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        多线程-非共享数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="02day/section.5.html">
+            
+                
+                    <a href="../02day/section.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        死锁
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="02day/section.5.2.html">
+            
+                
+                    <a href="../02day/section.5.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.9.</b>
+                        
+                        同步应用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.10" data-path="02day/section.7.html">
+            
+                
+                    <a href="../02day/section.7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.10.</b>
+                        
+                        生产者与消费者模式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="02day/section.10.html">
+            
+                
+                    <a href="../02day/section.10.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.11.</b>
+                        
+                        ThreadLocal
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12" data-path="02day/section.4.1.2.html">
+            
+                
+                    <a href="../02day/section.4.1.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.12.</b>
+                        
+                        异步
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    本書使用 GitBook 釋出
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >python基础语言</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="&#x751F;&#x4EA7;&#x8005;&#x4E0E;&#x6D88;&#x8D39;&#x8005;&#x6A21;&#x5F0F;">&#x751F;&#x4EA7;&#x8005;&#x4E0E;&#x6D88;&#x8D39;&#x8005;&#x6A21;&#x5F0F;</h1>
+<h2 id="1-&#x961F;&#x5217;">1. &#x961F;&#x5217;</h2>
+<p>&#x5148;&#x8FDB;&#x5148;&#x51FA;</p>
+<p><img src="../Images/113992901.jpg" alt=""></p>
+<h2 id="2-&#x6808;">2. &#x6808;</h2>
+<p>&#x5148;&#x8FDB;&#x540E;&#x51FA;</p>
+<p><img src="../Images/476e440adf9a0b538b45e.jpeg" alt=""></p>
+<p>Python&#x7684;Queue&#x6A21;&#x5757;&#x4E2D;&#x63D0;&#x4F9B;&#x4E86;&#x540C;&#x6B65;&#x7684;&#x3001;&#x7EBF;&#x7A0B;&#x5B89;&#x5168;&#x7684;&#x961F;&#x5217;&#x7C7B;&#xFF0C;&#x5305;&#x62EC;FIFO&#xFF08;&#x5148;&#x5165;&#x5148;&#x51FA;)&#x961F;&#x5217;Queue&#xFF0C;LIFO&#xFF08;&#x540E;&#x5165;&#x5148;&#x51FA;&#xFF09;&#x961F;&#x5217;LifoQueue&#xFF0C;&#x548C;&#x4F18;&#x5148;&#x7EA7;&#x961F;&#x5217;PriorityQueue&#x3002;&#x8FD9;&#x4E9B;&#x961F;&#x5217;&#x90FD;&#x5B9E;&#x73B0;&#x4E86;&#x9501;&#x539F;&#x8BED;&#xFF08;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x4E3A;&#x539F;&#x5B50;&#x64CD;&#x4F5C;&#xFF0C;&#x5373;&#x8981;&#x4E48;&#x4E0D;&#x505A;&#xFF0C;&#x8981;&#x4E48;&#x5C31;&#x505A;&#x5B8C;&#xFF09;&#xFF0C;&#x80FD;&#x591F;&#x5728;&#x591A;&#x7EBF;&#x7A0B;&#x4E2D;&#x76F4;&#x63A5;&#x4F7F;&#x7528;&#x3002;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x961F;&#x5217;&#x6765;&#x5B9E;&#x73B0;&#x7EBF;&#x7A0B;&#x95F4;&#x7684;&#x540C;&#x6B65;&#x3002;</p>
+<p>&#x7528;FIFO&#x961F;&#x5217;&#x5B9E;&#x73B0;&#x4E0A;&#x8FF0;&#x751F;&#x4EA7;&#x8005;&#x4E0E;&#x6D88;&#x8D39;&#x8005;&#x95EE;&#x9898;&#x7684;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-python"><span class="hljs-comment">#encoding=utf-8</span>
+<span class="hljs-keyword">import</span> threading
+<span class="hljs-keyword">import</span> time
+
+<span class="hljs-comment">#python2&#x4E2D;</span>
+<span class="hljs-keyword">from</span> Queue <span class="hljs-keyword">import</span> Queue
+
+<span class="hljs-comment">#python3&#x4E2D;</span>
+<span class="hljs-comment"># from queue import Queue</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Producer</span><span class="hljs-params">(threading.Thread)</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">run</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-keyword">global</span> queue
+        count = <span class="hljs-number">0</span>
+        <span class="hljs-keyword">while</span> <span class="hljs-keyword">True</span>:
+            <span class="hljs-keyword">if</span> queue.qsize() &lt; <span class="hljs-number">1000</span>:
+                <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">100</span>):
+                    count = count +<span class="hljs-number">1</span>
+                    msg = <span class="hljs-string">&apos;&#x751F;&#x6210;&#x4EA7;&#x54C1;&apos;</span>+str(count)
+                    queue.put(msg)
+                    print(msg)
+            time.sleep(<span class="hljs-number">0.5</span>)
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Consumer</span><span class="hljs-params">(threading.Thread)</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">run</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-keyword">global</span> queue
+        <span class="hljs-keyword">while</span> <span class="hljs-keyword">True</span>:
+            <span class="hljs-keyword">if</span> queue.qsize() &gt; <span class="hljs-number">100</span>:
+                <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">3</span>):
+                    msg = self.name + <span class="hljs-string">&apos;&#x6D88;&#x8D39;&#x4E86; &apos;</span>+queue.get()
+                    print(msg)
+            time.sleep(<span class="hljs-number">1</span>)
+
+
+<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&apos;__main__&apos;</span>:
+    queue = Queue()
+
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">500</span>):
+        queue.put(<span class="hljs-string">&apos;&#x521D;&#x59CB;&#x4EA7;&#x54C1;&apos;</span>+str(i))
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">2</span>):
+        p = Producer()
+        p.start()
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">5</span>):
+        c = Consumer()
+        c.start()
+</code></pre>
+<h2 id="3-queue&#x7684;&#x8BF4;&#x660E;">3. Queue&#x7684;&#x8BF4;&#x660E;</h2>
+<ol>
+<li>&#x5BF9;&#x4E8E;Queue&#xFF0C;&#x5728;&#x591A;&#x7EBF;&#x7A0B;&#x901A;&#x4FE1;&#x4E4B;&#x95F4;&#x626E;&#x6F14;&#x91CD;&#x8981;&#x7684;&#x89D2;&#x8272;</li>
+<li>&#x6DFB;&#x52A0;&#x6570;&#x636E;&#x5230;&#x961F;&#x5217;&#x4E2D;&#xFF0C;&#x4F7F;&#x7528;put()&#x65B9;&#x6CD5;</li>
+<li>&#x4ECE;&#x961F;&#x5217;&#x4E2D;&#x53D6;&#x6570;&#x636E;&#xFF0C;&#x4F7F;&#x7528;get()&#x65B9;&#x6CD5;</li>
+<li>&#x5224;&#x65AD;&#x961F;&#x5217;&#x4E2D;&#x662F;&#x5426;&#x8FD8;&#x6709;&#x6570;&#x636E;&#xFF0C;&#x4F7F;&#x7528;qsize()&#x65B9;&#x6CD5;</li>
+</ol>
+<h2 id="4-&#x751F;&#x4EA7;&#x8005;&#x6D88;&#x8D39;&#x8005;&#x6A21;&#x5F0F;&#x7684;&#x8BF4;&#x660E;">4. &#x751F;&#x4EA7;&#x8005;&#x6D88;&#x8D39;&#x8005;&#x6A21;&#x5F0F;&#x7684;&#x8BF4;&#x660E;</h2>
+<ul>
+<li>&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x4F7F;&#x7528;&#x751F;&#x4EA7;&#x8005;&#x548C;&#x6D88;&#x8D39;&#x8005;&#x6A21;&#x5F0F;</li>
+</ul>
+<p>&#x5728;&#x7EBF;&#x7A0B;&#x4E16;&#x754C;&#x91CC;&#xFF0C;&#x751F;&#x4EA7;&#x8005;&#x5C31;&#x662F;&#x751F;&#x4EA7;&#x6570;&#x636E;&#x7684;&#x7EBF;&#x7A0B;&#xFF0C;&#x6D88;&#x8D39;&#x8005;&#x5C31;&#x662F;&#x6D88;&#x8D39;&#x6570;&#x636E;&#x7684;&#x7EBF;&#x7A0B;&#x3002;&#x5728;&#x591A;&#x7EBF;&#x7A0B;&#x5F00;&#x53D1;&#x5F53;&#x4E2D;&#xFF0C;&#x5982;&#x679C;&#x751F;&#x4EA7;&#x8005;&#x5904;&#x7406;&#x901F;&#x5EA6;&#x5F88;&#x5FEB;&#xFF0C;&#x800C;&#x6D88;&#x8D39;&#x8005;&#x5904;&#x7406;&#x901F;&#x5EA6;&#x5F88;&#x6162;&#xFF0C;&#x90A3;&#x4E48;&#x751F;&#x4EA7;&#x8005;&#x5C31;&#x5FC5;&#x987B;&#x7B49;&#x5F85;&#x6D88;&#x8D39;&#x8005;&#x5904;&#x7406;&#x5B8C;&#xFF0C;&#x624D;&#x80FD;&#x7EE7;&#x7EED;&#x751F;&#x4EA7;&#x6570;&#x636E;&#x3002;&#x540C;&#x6837;&#x7684;&#x9053;&#x7406;&#xFF0C;&#x5982;&#x679C;&#x6D88;&#x8D39;&#x8005;&#x7684;&#x5904;&#x7406;&#x80FD;&#x529B;&#x5927;&#x4E8E;&#x751F;&#x4EA7;&#x8005;&#xFF0C;&#x90A3;&#x4E48;&#x6D88;&#x8D39;&#x8005;&#x5C31;&#x5FC5;&#x987B;&#x7B49;&#x5F85;&#x751F;&#x4EA7;&#x8005;&#x3002;&#x4E3A;&#x4E86;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x4E8E;&#x662F;&#x5F15;&#x5165;&#x4E86;&#x751F;&#x4EA7;&#x8005;&#x548C;&#x6D88;&#x8D39;&#x8005;&#x6A21;&#x5F0F;&#x3002;</p>
+<ul>
+<li>&#x4EC0;&#x4E48;&#x662F;&#x751F;&#x4EA7;&#x8005;&#x6D88;&#x8D39;&#x8005;&#x6A21;&#x5F0F;</li>
+</ul>
+<p>&#x751F;&#x4EA7;&#x8005;&#x6D88;&#x8D39;&#x8005;&#x6A21;&#x5F0F;&#x662F;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x5BB9;&#x5668;&#x6765;&#x89E3;&#x51B3;&#x751F;&#x4EA7;&#x8005;&#x548C;&#x6D88;&#x8D39;&#x8005;&#x7684;&#x5F3A;&#x8026;&#x5408;&#x95EE;&#x9898;&#x3002;&#x751F;&#x4EA7;&#x8005;&#x548C;&#x6D88;&#x8D39;&#x8005;&#x5F7C;&#x6B64;&#x4E4B;&#x95F4;&#x4E0D;&#x76F4;&#x63A5;&#x901A;&#x8BAF;&#xFF0C;&#x800C;&#x901A;&#x8FC7;&#x963B;&#x585E;&#x961F;&#x5217;&#x6765;&#x8FDB;&#x884C;&#x901A;&#x8BAF;&#xFF0C;&#x6240;&#x4EE5;&#x751F;&#x4EA7;&#x8005;&#x751F;&#x4EA7;&#x5B8C;&#x6570;&#x636E;&#x4E4B;&#x540E;&#x4E0D;&#x7528;&#x7B49;&#x5F85;&#x6D88;&#x8D39;&#x8005;&#x5904;&#x7406;&#xFF0C;&#x76F4;&#x63A5;&#x6254;&#x7ED9;&#x963B;&#x585E;&#x961F;&#x5217;&#xFF0C;&#x6D88;&#x8D39;&#x8005;&#x4E0D;&#x627E;&#x751F;&#x4EA7;&#x8005;&#x8981;&#x6570;&#x636E;&#xFF0C;&#x800C;&#x662F;&#x76F4;&#x63A5;&#x4ECE;&#x963B;&#x585E;&#x961F;&#x5217;&#x91CC;&#x53D6;&#xFF0C;&#x963B;&#x585E;&#x961F;&#x5217;&#x5C31;&#x76F8;&#x5F53;&#x4E8E;&#x4E00;&#x4E2A;&#x7F13;&#x51B2;&#x533A;&#xFF0C;&#x5E73;&#x8861;&#x4E86;&#x751F;&#x4EA7;&#x8005;&#x548C;&#x6D88;&#x8D39;&#x8005;&#x7684;&#x5904;&#x7406;&#x80FD;&#x529B;&#x3002;</p>
+<p>&#x8FD9;&#x4E2A;&#x963B;&#x585E;<span class="pg-emphasize pg-emphasize-yellow" style="background: #fff700;">&#x961F;&#x5217;&#x5C31;&#x662F;&#x7528;&#x6765;&#x7ED9;&#x751F;&#x4EA7;&#x8005;&#x548C;&#x6D88;&#x8D39;&#x8005;&#x89E3;&#x8026;&#x7684;</span>&#x3002;&#x7EB5;&#x89C2;&#x5927;&#x591A;&#x6570;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#xFF0C;&#x90FD;&#x4F1A;&#x627E;&#x4E00;&#x4E2A;&#x7B2C;&#x4E09;&#x8005;&#x51FA;&#x6765;&#x8FDB;&#x884C;&#x89E3;&#x8026;&#xFF0C;</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../02day/section.5.2.html" class="navigation navigation-prev " aria-label="Previous page: 同步应用"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../02day/section.10.html" class="navigation navigation-next " aria-label="Next page: ThreadLocal"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-splitter/splitter.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"toggle-chapters":{},"splitter":{},"emphasize":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book python基础语言 -->
+</html>
