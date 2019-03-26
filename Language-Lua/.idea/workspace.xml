@@ -38,11 +38,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/4.table的构造.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="248">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/5.基本语法.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/6.break_return.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/7.函数.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/8.命名参数.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/func.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="6" column="7" selection-start-line="6" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -63,14 +108,19 @@
         <option value="$PROJECT_DIR$/src/2.类型和值.lua" />
         <option value="$PROJECT_DIR$/src/3.表达式.lua" />
         <option value="$PROJECT_DIR$/src/4.table的构造.lua" />
+        <option value="$PROJECT_DIR$/src/5.基本语法.lua" />
+        <option value="$PROJECT_DIR$/src/6.break_return.lua" />
+        <option value="$PROJECT_DIR$/src/lib/func.lua" />
+        <option value="$PROJECT_DIR$/src/7.函数.lua" />
+        <option value="$PROJECT_DIR$/src/lib/old.lua" />
+        <option value="$PROJECT_DIR$/src/8.命名参数.lua" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1280" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -86,6 +136,11 @@
               <item name="Language-Lua" type="b2602c69:ProjectViewProjectNode" />
               <item name="Language-Lua" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Language-Lua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Language-Lua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -96,6 +151,11 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,37 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Lua Application.4.table的构造.lua">
-    <configuration name="1.基本变量.lua" type="lua.app" factoryName="Lua Application" temporary="true">
-      <option name="program" value="/usr/local/bin/lua" />
-      <option name="file" value="1.基本变量.lua" />
-      <option name="workingDir" value="$PROJECT_DIR$/src" />
-      <option name="debuggerType" value="2" />
-      <option name="params" value="" />
-      <option name="charset" value="UTF-8" />
-      <option name="showConsole" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2.类型和值.lua" type="lua.app" factoryName="Lua Application" temporary="true">
-      <option name="program" value="/usr/local/bin/lua" />
-      <option name="file" value="2.类型和值.lua" />
-      <option name="workingDir" value="$PROJECT_DIR$/src" />
-      <option name="debuggerType" value="2" />
-      <option name="params" value="" />
-      <option name="charset" value="UTF-8" />
-      <option name="showConsole" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3.表达式.lua" type="lua.app" factoryName="Lua Application" temporary="true">
-      <option name="program" value="/usr/local/bin/lua" />
-      <option name="file" value="3.表达式.lua" />
-      <option name="workingDir" value="$PROJECT_DIR$/src" />
-      <option name="debuggerType" value="2" />
-      <option name="params" value="" />
-      <option name="charset" value="UTF-8" />
-      <option name="showConsole" value="true" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Lua Application.8.命名参数.lua">
     <configuration name="4.table的构造.lua" type="lua.app" factoryName="Lua Application" temporary="true">
       <option name="program" value="/usr/local/bin/lua" />
       <option name="file" value="4.table的构造.lua" />
@@ -150,22 +180,63 @@
       <option name="showConsole" value="true" />
       <method v="2" />
     </configuration>
+    <configuration name="5.基本语法.lua" type="lua.app" factoryName="Lua Application" temporary="true">
+      <option name="program" value="/usr/local/bin/lua" />
+      <option name="file" value="5.基本语法.lua" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="6.break_return.lua" type="lua.app" factoryName="Lua Application" temporary="true">
+      <option name="program" value="/usr/local/bin/lua" />
+      <option name="file" value="6.break_return.lua" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7.函数.lua" type="lua.app" factoryName="Lua Application" temporary="true">
+      <option name="program" value="/usr/local/bin/lua" />
+      <option name="file" value="7.函数.lua" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8.命名参数.lua" type="lua.app" factoryName="Lua Application" temporary="true">
+      <option name="program" value="/usr/local/bin/lua" />
+      <option name="file" value="8.命名参数.lua" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Lua Application.8.命名参数.lua" />
+        <item itemvalue="Lua Application.7.函数.lua" />
+        <item itemvalue="Lua Application.6.break_return.lua" />
+        <item itemvalue="Lua Application.5.基本语法.lua" />
         <item itemvalue="Lua Application.4.table的构造.lua" />
-        <item itemvalue="Lua Application.3.表达式.lua" />
-        <item itemvalue="Lua Application.2.类型和值.lua" />
-        <item itemvalue="Lua Application.1.基本变量.lua" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1920" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21778488" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22617124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="LuaCheck" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -174,7 +245,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22425249" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -216,8 +287,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/4.table的构造.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="248">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/5.基本语法.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/6.break_return.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/func.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="7" selection-start-line="6" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/7.函数.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/old.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/8.命名参数.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
