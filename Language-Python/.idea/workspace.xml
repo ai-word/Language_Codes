@@ -2,23 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54ede720-a9c1-4fe5-866f-31b700c52050" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python基础篇/01-字符编码声明.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/02-字符串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/03-列表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/04-列表与字符串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/05.元组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/06-字典.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/07-集合set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/08-控制结构if-else.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/09-列表快速生成.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/10-循环结构.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/11-函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/12.import导入.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/13-异常处理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/14-warning处理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/15-文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python基础篇/16.运行.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Language-Lua/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Language-Lua/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/09-猜拳游戏.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/12-break和continue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/13-循环语句和判断语句总结.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/15-局部变量和全局变量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/16-递归函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/17-匿名函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/18-使用函数注意事项.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/20-文件读写.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/21-文件备份.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/22-文件定位读写.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/23-文件重命名和删除.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/24-文件夹操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python基础篇/25-批量更改文件夹.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础篇/09-列表快速生成.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础篇/10-列表快速生成.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础篇/10-循环结构.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础篇/11-循环结构.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础篇/11-函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础篇/14-函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础篇/12.import导入.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础篇/30.import导入.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础篇/13-异常处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础篇/31-异常处理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础篇/14-warning处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础篇/32-warning处理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础篇/15-文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础篇/19-文件打开或关闭.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础篇/16.运行.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础篇/33.运行.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,65 +32,99 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Language_Python$11_.coverage" NAME="11-函数 Coverage Results" MODIFIED="1553777584943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$15_.coverage" NAME="15-局部变量和全局变量 Coverage Results" MODIFIED="1553780100061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$21_.coverage" NAME="21-文件备份 Coverage Results" MODIFIED="1553781538007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
     <SUITE FILE_PATH="coverage/Language_Python$02_.coverage" NAME="02-字符串 Coverage Results" MODIFIED="1553776714732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$pytest_in_15__py.coverage" NAME="pytest in 15-局部变量和全局变量.py Coverage Results" MODIFIED="1553780126228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
     <SUITE FILE_PATH="coverage/Language_Python$06_.coverage" NAME="06-字典 Coverage Results" MODIFIED="1553777231634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$20_.coverage" NAME="20-文件读写 Coverage Results" MODIFIED="1553781335696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$24_.coverage" NAME="24-文件夹操作 Coverage Results" MODIFIED="1553782120269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$11_.coverage" NAME="11-函数 Coverage Results" MODIFIED="1553780062284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$pytest_for_15__test2.coverage" NAME="pytest for 15-局部变量和全局变量.test2 Coverage Results" MODIFIED="1553780022985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$11_breakcontinue.coverage" NAME="11-break和continue Coverage Results" MODIFIED="1553778808405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$17_.coverage" NAME="17-匿名函数 Coverage Results" MODIFIED="1553780726733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$22_.coverage" NAME="22-文件定位读写 Coverage Results" MODIFIED="1553781749541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$16_.coverage" NAME="16-递归函数 Coverage Results" MODIFIED="1553780399865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$23_.coverage" NAME="23-文件重命名和删除 Coverage Results" MODIFIED="1553781918030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$10_.coverage" NAME="10-循环结构 Coverage Results" MODIFIED="1553778531239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python基础篇/07-集合set.py">
+        <entry file="file://$PROJECT_DIR$/Python基础篇/18-使用函数注意事项.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="-961">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python基础篇/19-文件打开或关闭.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python基础篇/20-文件读写.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python基础篇/21-文件备份.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python基础篇/22-文件定位读写.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python基础篇/23-文件重命名和删除.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="e#70#107#0" expanded="true" />
+                <element signature="e#24#61#0" expanded="true" />
+                <marker date="1553781918019" expanded="true" signature="285:329" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python基础篇/08-控制结构if-else.py">
+        <entry file="file://$PROJECT_DIR$/Python基础篇/24-文件夹操作.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="465">
+              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding>
-                <element signature="e#66#103#0" expanded="true" />
+                <element signature="e#24#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python基础篇/09-列表快速生成.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python基础篇/25-批量更改文件夹.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-              <folding>
-                <element signature="e#68#105#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python基础篇/10-循环结构.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-              <folding>
-                <element signature="e#61#98#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python基础篇/11-函数.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="311">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding>
                 <element signature="e#24#61#0" expanded="true" />
               </folding>
@@ -94,63 +133,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python基础篇/12.import导入.py">
+        <entry file="file://$PROJECT_DIR$/Python基础篇/liu.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-              <folding>
-                <element signature="e#61#98#0" expanded="true" />
-              </folding>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python基础篇/13-异常处理.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-              <folding>
-                <element signature="e#74#111#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python基础篇/14-warning处理.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-              <folding>
-                <element signature="e#63#100#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python基础篇/15-文件.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-              <folding>
-                <element signature="e#61#98#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python基础篇/16.运行.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
-              <folding>
-                <element signature="e#61#98#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Python基础篇/liu[复件].txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -183,13 +176,31 @@
         <option value="$PROJECT_DIR$/Python基础篇/07-集合set.py" />
         <option value="$PROJECT_DIR$/Python基础篇/08-控制结构if-else.py" />
         <option value="$PROJECT_DIR$/Python基础篇/09-列表快速生成.py" />
-        <option value="$PROJECT_DIR$/Python基础篇/10-循环结构.py" />
         <option value="$PROJECT_DIR$/Python基础篇/11-函数.py" />
         <option value="$PROJECT_DIR$/Python基础篇/12-导入.py" />
         <option value="$PROJECT_DIR$/Python基础篇/13-异常.py" />
         <option value="$PROJECT_DIR$/Python基础篇/14-warning处理.py" />
         <option value="$PROJECT_DIR$/Python基础篇/文件.py" />
         <option value="$PROJECT_DIR$/Python基础篇/16.运行.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/15-文件.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/08-1-猜拳游戏.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/10-循环结构.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/11-break和continue.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/13-循环语句和判断语句总结.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/14-函数.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/15-局部变量和全局变量.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/16-递归函数.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/17-匿名函数.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/18-使用函数注意事项.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/19-文件打开或关闭.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/20-文件读写.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/21-文件备份.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/liu.txt" />
+        <option value="$PROJECT_DIR$/Python基础篇/test.txt" />
+        <option value="$PROJECT_DIR$/Python基础篇/22-文件定位读写.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/23-文件重命名和删除.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/24-文件夹操作.py" />
+        <option value="$PROJECT_DIR$/Python基础篇/25-批量更改文件夹.py" />
       </list>
     </option>
   </component>
@@ -231,6 +242,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python基础篇" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -243,8 +259,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11-函数">
-    <configuration name="02-字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.24-文件夹操作">
+    <configuration name="20-文件读写" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Language-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,7 +273,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础篇/02-字符串.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础篇/20-文件读写.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,7 +282,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="06-字典" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="21-文件备份" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Language-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,7 +295,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础篇/06-字典.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础篇/21-文件备份.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +304,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11-函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="22-文件定位读写" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Language-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,7 +317,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础篇/11-函数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础篇/22-文件定位读写.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="23-文件重命名和删除" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Language-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python基础篇" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础篇/23-文件重命名和删除.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="24-文件夹操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Language-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python基础篇" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础篇/24-文件夹操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,9 +372,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.11-函数" />
-        <item itemvalue="Python.06-字典" />
-        <item itemvalue="Python.02-字符串" />
+        <item itemvalue="Python.24-文件夹操作" />
+        <item itemvalue="Python.23-文件重命名和删除" />
+        <item itemvalue="Python.22-文件定位读写" />
+        <item itemvalue="Python.21-文件备份" />
+        <item itemvalue="Python.20-文件读写" />
       </list>
     </recent_temporary>
   </component>
@@ -328,12 +390,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553775489616</updated>
-      <workItem from="1553775492641" duration="2355000" />
+      <workItem from="1553775492641" duration="6596000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_15-局部变量和全局变量_py - 2019.03.28 at 21h 33m 17s.xml">
+      <configuration name="pytest in 15-局部变量和全局变量.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_15-局部变量和全局变量_test2 - 2019.03.28 at 21h 33m 44s.xml">
+      <configuration name="pytest for 15-局部变量和全局变量.test2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_15-局部变量和全局变量_py - 2019.03.28 at 21h 34m 06s.xml">
+      <configuration name="pytest in 15-局部变量和全局变量.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_15-局部变量和全局变量_py - 2019.03.28 at 21h 34m 10s.xml">
+      <configuration name="pytest in 15-局部变量和全局变量.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_15-局部变量和全局变量_py - 2019.03.28 at 21h 34m 36s.xml">
+      <configuration name="pytest in 15-局部变量和全局变量.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_15-局部变量和全局变量_py - 2019.03.28 at 21h 35m 10s.xml">
+      <configuration name="pytest in 15-局部变量和全局变量.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_15-局部变量和全局变量_py - 2019.03.28 at 21h 35m 27s.xml">
+      <configuration name="pytest in 15-局部变量和全局变量.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2355000" />
+    <option name="totallyTimeSpent" value="6596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
@@ -424,37 +509,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/07-集合set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#70#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/08-控制结构if-else.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#66#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/09-列表快速生成.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#68#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/10-循环结构.py">
+    <entry file="file://$PROJECT_DIR$/Python基础篇/30.import导入.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
@@ -464,27 +519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/11-函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#24#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/12.import导入.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#61#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/13-异常处理.py">
+    <entry file="file://$PROJECT_DIR$/Python基础篇/31-异常处理.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
@@ -494,7 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/14-warning处理.py">
+    <entry file="file://$PROJECT_DIR$/Python基础篇/32-warning处理.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
@@ -504,22 +539,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/15-文件.py">
+    <entry file="file://$PROJECT_DIR$/Python基础篇/33.运行.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        <state relative-caret-position="341">
+          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
           <folding>
             <element signature="e#61#98#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/16.运行.py">
+    <entry file="file://$PROJECT_DIR$/Python基础篇/10-列表快速生成.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+        <state relative-caret-position="-548">
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
           <folding>
-            <element signature="e#61#98#0" expanded="true" />
+            <element signature="e#68#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/08-控制结构if-else.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-507">
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#66#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/07-集合set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="39" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/09-猜拳游戏.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/11-循环结构.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/12-break和continue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/13-循环语句和判断语句总结.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/14-函数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="8" lean-forward="true" selection-end-line="2" selection-end-column="39" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/15-局部变量和全局变量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/16-递归函数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/17-匿名函数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/18-使用函数注意事项.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-961">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/19-文件打开或关闭.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/20-文件读写.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/liu[复件].txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/liu.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/21-文件备份.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="621" selection-start-column="621" selection-end-column="621" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/22-文件定位读写.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/23-文件重命名和删除.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+            <marker date="1553781918019" expanded="true" signature="285:329" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/24-文件夹操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础篇/25-批量更改文件夹.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
