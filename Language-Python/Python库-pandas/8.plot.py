@@ -23,11 +23,11 @@ data = data.cumsum()
 # # DataFrame
 data = pd.DataFrame(np.random.randn(1000, 4), index=np.arange(1000), columns=list("ABCD"))
 data = data.cumsum()
-data.plot()
-plt.show()
-print(data)
+# data.plot()
+# plt.show()
+# print(data)
 # # plot methods:
 # # 'bar', 'hist', 'box', 'kde', 'area', scatter', hexbin', 'pie'
-# ax = data.plot.scatter(x='A', y='B', color='DarkBlue', label="Class 1")
-# data.plot.scatter(x='A', y='C', color='LightGreen', label='Class 2', ax=ax)
-# plt.show()
+ax=data.plot.scatter(x='A', y='B', color='DarkBlue', label="Class 1")
+data.plot.scatter(x='A', y='D', color='LightGreen', label='Class 2',ax=ax)
+plt.show()
