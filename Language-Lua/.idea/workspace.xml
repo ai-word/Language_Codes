@@ -126,8 +126,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1441" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -137,6 +137,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,8 +150,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,9 +236,10 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="1441" y="23" width="1920" height="1057" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -319,6 +320,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Language-Lua/13.迭代器.lua" />
     <entry file="file://$PROJECT_DIR$/src/8.命名参数.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -376,11 +378,6 @@
         <state relative-caret-position="186">
           <caret line="6" column="7" selection-start-line="6" selection-end-line="6" selection-end-column="7" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Language-Lua/13.迭代器.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/14.携程.lua">
