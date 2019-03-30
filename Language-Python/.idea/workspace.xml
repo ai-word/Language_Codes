@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54ede720-a9c1-4fe5-866f-31b700c52050" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Python库-pandas/8.plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python库-pandas/8.plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-项目篇/csdn浏览量点击/爬取csdn文章.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python库-pandas/9.plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +21,16 @@
     <SUITE FILE_PATH="coverage/Language_Python$8_plot.coverage" NAME="8.plot Coverage Results" MODIFIED="1553848149122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python库-pandas" />
     <SUITE FILE_PATH="coverage/Language_Python$1_pandas.coverage" NAME="1.pandas介绍 Coverage Results" MODIFIED="1553841179039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python库-pandas" />
     <SUITE FILE_PATH="coverage/Language_Python$1_numpy.coverage" NAME="1-numpy的创建 Coverage Results" MODIFIED="1553829503038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python库-numpy" />
+    <SUITE FILE_PATH="coverage/Language_Python$visit_spider.coverage" NAME="visit_spider Coverage Results" MODIFIED="1553921121784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdn-spider-master" />
     <SUITE FILE_PATH="coverage/Language_Python$5_pandas.coverage" NAME="5.pandas导入导出 Coverage Results" MODIFIED="1553847218246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python库-pandas" />
     <SUITE FILE_PATH="coverage/Language_Python$11_breakcontinue.coverage" NAME="11-break和continue Coverage Results" MODIFIED="1553778808405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
     <SUITE FILE_PATH="coverage/Language_Python$17_.coverage" NAME="17-匿名函数 Coverage Results" MODIFIED="1553780726733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
     <SUITE FILE_PATH="coverage/Language_Python$23_.coverage" NAME="23-文件重命名和删除 Coverage Results" MODIFIED="1553781918030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$CSDN.coverage" NAME="CSDN刷访问量 Coverage Results" MODIFIED="1553884867841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VisitCSDN-master" />
     <SUITE FILE_PATH="coverage/Language_Python$10_.coverage" NAME="10-循环结构 Coverage Results" MODIFIED="1553778531239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$csdn_spider__1_.coverage" NAME="csdn_spider (1) Coverage Results" MODIFIED="1553924323508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python-项目篇/csdn-reptile" />
     <SUITE FILE_PATH="coverage/Language_Python$2_pandas.coverage" NAME="2.pandas选择数据 Coverage Results" MODIFIED="1553841822645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python库-pandas" />
+    <SUITE FILE_PATH="coverage/Language_Python$csdn_spider.coverage" NAME="csdn_spider Coverage Results" MODIFIED="1553911314023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csdn-spider-master" />
     <SUITE FILE_PATH="coverage/Language_Python$6_numpycopydeepcopy.coverage" NAME="6-numpy的copy和deepcopy Coverage Results" MODIFIED="1553839968249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python库-numpy" />
     <SUITE FILE_PATH="coverage/Language_Python$3_numpy2.coverage" NAME="3-numpy基础运算2 Coverage Results" MODIFIED="1553831259582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python库-numpy" />
     <SUITE FILE_PATH="coverage/Language_Python$0_numpy.coverage" NAME="0-numpy属性 Coverage Results" MODIFIED="1553828803364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python库-numpy" />
@@ -34,117 +40,48 @@
     <SUITE FILE_PATH="coverage/Language_Python$20_.coverage" NAME="20-文件读写 Coverage Results" MODIFIED="1553781335696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
     <SUITE FILE_PATH="coverage/Language_Python$24_.coverage" NAME="24-文件夹操作 Coverage Results" MODIFIED="1553782120269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
     <SUITE FILE_PATH="coverage/Language_Python$11_.coverage" NAME="11-函数 Coverage Results" MODIFIED="1553780062284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
+    <SUITE FILE_PATH="coverage/Language_Python$9_plot.coverage" NAME="9.plot Coverage Results" MODIFIED="1553849382906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python库-pandas" />
     <SUITE FILE_PATH="coverage/Language_Python$01_array.coverage" NAME="01-array Coverage Results" MODIFIED="1553826809483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python库-numpy" />
     <SUITE FILE_PATH="coverage/Language_Python$pytest_for_15__test2.coverage" NAME="pytest for 15-局部变量和全局变量.test2 Coverage Results" MODIFIED="1553780022985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
     <SUITE FILE_PATH="coverage/Language_Python$22_.coverage" NAME="22-文件定位读写 Coverage Results" MODIFIED="1553781749541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
     <SUITE FILE_PATH="coverage/Language_Python$5_numpyarray.coverage" NAME="5-numpy的array分割 Coverage Results" MODIFIED="1553839617291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python库-numpy" />
+    <SUITE FILE_PATH="coverage/Language_Python$csdn.coverage" NAME="爬取csdn文章 Coverage Results" MODIFIED="1553923715852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python-项目篇/csdn-reptile" />
     <SUITE FILE_PATH="coverage/Language_Python$16_.coverage" NAME="16-递归函数 Coverage Results" MODIFIED="1553780399865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础篇" />
     <SUITE FILE_PATH="coverage/Language_Python$3_pandas.coverage" NAME="3.pandas设置值 Coverage Results" MODIFIED="1553842572577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python库-pandas" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python库-pandas/1.pandas介绍.py">
+        <entry file="file://$PROJECT_DIR$/Python-项目篇/csdn浏览量点击/csdn_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="194">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python库-pandas/2.pandas选择数据.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python库-pandas/3.pandas设置值.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python库-pandas/4.pandas数据处理.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python库-pandas/5.pandas导入导出.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python库-pandas/6.pandas合并concat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-              <folding>
-                <element signature="e#325#362#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python库-pandas/7.pandas合并.py">
+        <entry file="file://$PROJECT_DIR$/Python-项目篇/csdn浏览量点击/爬取csdn文章.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="354">
-              <caret line="64" column="50" lean-forward="true" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
-                <element signature="e#325#362#0" expanded="true" />
+                <element signature="e#53#73#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python-项目篇/csdn浏览量点击/visit_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1415" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python库-pandas/8.plot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
-              <folding>
-                <element signature="e#325#362#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python库-pandas/student.pickle">
+        <entry file="file://$PROJECT_DIR$/Python-项目篇/csdn浏览量点击/download/url.txt">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python库-pandas/stu.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="434">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -159,6 +96,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pprint</find>
+      <find>timeNum</find>
+      <find>downloadUrl</find>
+      <find>str</find>
+      <find>currentHour</find>
+      <find>readFile</find>
+      <find>csdnSpider</find>
+      <find>getPages</find>
+      <find>listNum</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,13 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python基础篇/01-字符编码声明.py" />
-        <option value="$PROJECT_DIR$/Python基础篇/02-字符串.py" />
-        <option value="$PROJECT_DIR$/Python基础篇/03-列表.py" />
-        <option value="$PROJECT_DIR$/Python基础篇/04-列表与字符串.py" />
-        <option value="$PROJECT_DIR$/Python基础篇/05.元组.py" />
-        <option value="$PROJECT_DIR$/Python基础篇/06-字典.py" />
-        <option value="$PROJECT_DIR$/Python基础篇/07-集合set.py" />
         <option value="$PROJECT_DIR$/Python基础篇/08-控制结构if-else.py" />
         <option value="$PROJECT_DIR$/Python基础篇/09-列表快速生成.py" />
         <option value="$PROJECT_DIR$/Python基础篇/11-函数.py" />
@@ -218,14 +156,20 @@
         <option value="$PROJECT_DIR$/Python库-pandas/6.pandas合并concat.py" />
         <option value="$PROJECT_DIR$/Python库-pandas/7.pandas合并.py" />
         <option value="$PROJECT_DIR$/Python库-pandas/8.plot.py" />
+        <option value="$PROJECT_DIR$/Python库-pandas/9.plot.py" />
+        <option value="$PROJECT_DIR$/VisitCSDN-master/CSDN刷访问量.py" />
+        <option value="$PROJECT_DIR$/csdn-spider-master/csdn_spider.py" />
+        <option value="$PROJECT_DIR$/csdn-spider-master/download/url.txt" />
+        <option value="$PROJECT_DIR$/csdn-spider-master/visit_spider.py" />
+        <option value="$PROJECT_DIR$/Python-项目篇/csdn-reptile/csdn_spider.py" />
+        <option value="$PROJECT_DIR$/Python-项目篇/csdn-reptile/爬取csdn文章.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1305" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1280" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -246,7 +190,7 @@
             <path>
               <item name="Language-Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Language-Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Python库-pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="Python-项目篇" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,6 +204,10 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python-项目篇" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Python库-pandas" />
       <recent name="$PROJECT_DIR$/Python库-numpy" />
@@ -278,8 +226,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.8.plot">
-    <configuration name="2.pandas选择数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.爬取csdn文章">
+    <configuration name="CSDN刷访问量" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Language-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,12 +235,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python库-pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VisitCSDN-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python库-pandas/2.pandas选择数据.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VisitCSDN-master/CSDN刷访问量.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,7 +249,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3.pandas设置值" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="爬取csdn文章" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Language-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,12 +257,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python库-pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python-项目篇/csdn-reptile" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python库-pandas/3.pandas设置值.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-项目篇/csdn-reptile/爬取csdn文章.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,7 +271,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4.pandas数据处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="csdn_spider (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Language-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,12 +279,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python库-pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python-项目篇/csdn-reptile" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python库-pandas/4.pandas数据处理.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-项目篇/csdn-reptile/csdn_spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,7 +293,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5.pandas导入导出" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="csdn_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Language-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -353,12 +301,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python库-pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/csdn-spider-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python库-pandas/5.pandas导入导出.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csdn-spider-master/csdn_spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,7 +315,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8.plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="visit_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Language-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,12 +323,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python库-pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/csdn-spider-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python库-pandas/8.plot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csdn-spider-master/visit_spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -391,11 +339,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.8.plot" />
-        <item itemvalue="Python.5.pandas导入导出" />
-        <item itemvalue="Python.4.pandas数据处理" />
-        <item itemvalue="Python.3.pandas设置值" />
-        <item itemvalue="Python.2.pandas选择数据" />
+        <item itemvalue="Python.csdn_spider (1)" />
+        <item itemvalue="Python.爬取csdn文章" />
+        <item itemvalue="Python.visit_spider" />
+        <item itemvalue="Python.csdn_spider" />
+        <item itemvalue="Python.CSDN刷访问量" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +358,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553775489616</updated>
       <workItem from="1553775492641" duration="7350000" />
-      <workItem from="1553825741165" duration="11094000" />
+      <workItem from="1553825741165" duration="24448000" />
     </task>
     <servers />
   </component>
@@ -438,18 +386,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18444000" />
+    <option name="totallyTimeSpent" value="31798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1305" y="23" width="1920" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="737" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10117146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15347335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28199565" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3604651" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -458,13 +405,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32890365" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Cargo" order="3" />
-      <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.3881789" />
+      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.024232633" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
@@ -472,113 +419,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python基础篇/01-字符编码声明.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/02-字符串.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#44#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/03-列表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4030">
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#94#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/04-列表与字符串.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="39" />
-          <folding>
-            <element signature="e#61#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/05.元组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-424">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding>
-            <element signature="e#24#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/06-字典.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#61#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/26.import导入.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#61#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/27-异常处理.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="e#74#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/28-warning处理.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#63#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/29.运行.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
-          <folding>
-            <element signature="e#61#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python基础篇/10-列表快速生成.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548">
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#68#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python基础篇/08-控制结构if-else.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-507">
@@ -800,33 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python库-pandas/1.pandas介绍.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python库-pandas/2.pandas选择数据.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python库-pandas/3.pandas设置值.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python库-pandas/4.pandas数据处理.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -876,13 +689,129 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python库-pandas/8.plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+        <state relative-caret-position="52">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="e#325#362#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python库-pandas/9.plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python库-pandas/3.pandas设置值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csdn-spider-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-281" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VisitCSDN-master/CSDN刷访问量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3476">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csdn-spider-master/csdn_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1416">
+          <caret line="600" selection-start-line="600" selection-end-line="600" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csdn-spider-master/download/url.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csdn-spider-master/visit_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1867">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python库-pandas/1.pandas介绍.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python库-pandas/2.pandas选择数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-项目篇/csdn浏览量点击/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-20" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-项目篇/csdn浏览量点击/爬取csdn文章.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#53#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-项目篇/csdn浏览量点击/visit_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1415" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-项目篇/csdn浏览量点击/csdn_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-项目篇/csdn浏览量点击/download/url.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
