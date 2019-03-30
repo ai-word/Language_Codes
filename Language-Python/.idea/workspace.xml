@@ -110,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python-项目篇/美图爬取/美图爬取.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1004">
@@ -122,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python-项目篇/仇视百科信息爬取/qiubai.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python-项目篇/python远程关机/远程关机.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="2563" selection-start-line="2563" selection-end-line="2563" />
+            <state relative-caret-position="263">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -159,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python基础篇/12-导入.py" />
         <option value="$PROJECT_DIR$/Python基础篇/13-异常.py" />
         <option value="$PROJECT_DIR$/Python基础篇/14-warning处理.py" />
         <option value="$PROJECT_DIR$/Python基础篇/文件.py" />
@@ -210,6 +209,7 @@
         <option value="$PROJECT_DIR$/Python-项目篇/拉钩网职位分析/1.拉勾网职位信息.py" />
         <option value="$PROJECT_DIR$/Python-项目篇/3.py" />
         <option value="$PROJECT_DIR$/Python-项目篇/美图爬取/美图爬取.py" />
+        <option value="$PROJECT_DIR$/Python-项目篇/python远程关机/远程关机.py" />
       </list>
     </option>
   </component>
@@ -406,7 +406,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553775489616</updated>
       <workItem from="1553775492641" duration="7350000" />
-      <workItem from="1553825741165" duration="26048000" />
+      <workItem from="1553825741165" duration="26508000" />
     </task>
     <servers />
   </component>
@@ -434,10 +434,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33398000" />
+    <option name="totallyTimeSpent" value="33858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="737" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15347335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -467,13 +468,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python基础篇/12-break和continue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python基础篇/13-循环语句和判断语句总结.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -855,6 +849,13 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-项目篇/python远程关机/远程关机.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>
