@@ -103,7 +103,11 @@ class visitSpider(object):
         # 计算次数
         listNum = 0
         while True:
-             rm = random.randint(1,self.nums-1)
+            # 访问时间 8 12 18 20现在如果是好的出名的楼盘 也可以
+            # if self.currentHour =  or self.currentHour == 1 or self.currentHour == 20 or self.currentHour == 1:
+                # 得到url值
+               # for i in range(self.nums):
+             rm = random.randint[1,self.nums-1]
              url = self.urls[rm]
              response = request.request('GET', url, headers=self.heasers[random.randint(0, len(self.heasers)-1)])
              print(url, response.status, listNum,rm)
@@ -111,10 +115,31 @@ class visitSpider(object):
              timeNum += 1
              listNum += 1
              # time.sleep(2)
-             # if timeNum % 50 == 0:
-             #    timeNum =0
-             #    listNum=0
-             #    self.readFile()
+             if timeNum % 50 == 0:
+                timeNum =0
+                listNum=0
+                self.readFile()
+
+                # url = self.urls[random.randint(0,self.nums - 1)]
+                # 使用urllib3发送请求
+
+                # 打印返回信息
+
+                # 访问一次睡一秒
+                # time.sleep(1)
+                # timeNum += 1
+                # listNum += 1
+                # 每访问50次睡30秒
+                # if listNum % 50 == 0:
+                #     for i in  range(30):
+                #         print("\r剩余休息时间：%d秒"%(30-i))
+                #         time.sleep(1)
+                # 当到达一定时间（1个小时）之后重新读取文档
+
+            # else:
+            #     print("休息中,当前时间：" + str(time.localtime().tm_hour) + ":" + str(time.localtime().tm_min)
+            #           + ":" + str(time.localtime().tm_sec) + " ...")
+            #     time.sleep(1)
 
 def Main():
     vi = visitSpider()

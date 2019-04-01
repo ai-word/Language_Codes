@@ -57,7 +57,7 @@ def Main():
     cs = csdnSpider()
     # 获取页面，并下载文章url,输入下载页面数（默认为5）
     try:
-        cs.getPages(2)
+        cs.getPages(10)
     except:
         print("出错了")
 
