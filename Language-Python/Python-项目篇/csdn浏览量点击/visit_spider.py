@@ -5,7 +5,6 @@ import time
 """提取数据访问链接"""
 # 禁用urllib3的警告
 urllib3.disable_warnings()
-
 class visitSpider(object):
     def __init__(self):
         self.heasers = [
