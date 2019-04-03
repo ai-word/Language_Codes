@@ -11,12 +11,14 @@ f.close()
 soup = BeautifulSoup(html_str, 'html.parser')
 #find_all 通过这个方法寻找a标签
 all_a = soup.find_all('a')
+print(all_a)
 with codecs.open("test.txt", "w", 'utf-8') as f:
     f.truncate()
+index = 0
 for item in all_a:
     obj = item.string
-    # print(obj)f.truncate()
     if obj != None:
+        index += 1
         with codecs.open("test.txt", "a",'utf-8') as f:
             print(obj)
-            f.write(obj + "/" + "\n")
+            f.write(str(index) + " "+ obj + "" + "\n")
