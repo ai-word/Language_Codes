@@ -1,0 +1,11 @@
+/Users/apple/Desktop/wasm-hello/target/debug/deps/libwasm_bindgen_backend-17a2f77bac57946a.rlib: /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/lib.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/error.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/ast.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/codegen.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/defined.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/encode.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/util.rs
+
+/Users/apple/Desktop/wasm-hello/target/debug/deps/wasm_bindgen_backend-17a2f77bac57946a.d: /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/lib.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/error.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/ast.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/codegen.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/defined.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/encode.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/util.rs
+
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/lib.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/error.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/ast.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/codegen.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/defined.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/encode.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.40/src/util.rs:

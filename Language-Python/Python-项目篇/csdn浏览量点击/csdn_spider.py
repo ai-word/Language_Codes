@@ -15,7 +15,7 @@ class csdnSpider(object):
         self.repeUrl = []
 
     # 获取登录后页面
-    def getPages(self,pageNum=5):
+    def getPages(self,pageNum=23):
         # 清空用于保存的文件
         self.clearFile()
         # 循环指定页面提取url
@@ -57,7 +57,7 @@ def Main():
     cs = csdnSpider()
     # 获取页面，并下载文章url,输入下载页面数（默认为5）
     try:
-        cs.getPages(10)
+        cs.getPages(23)
     except:
         print("出错了")
 

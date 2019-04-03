@@ -1,0 +1,12 @@
+/Users/apple/Desktop/wasm-hello/target/release/deps/libbumpalo-da40e57be44a621c.rlib: /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/lib.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/mod.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/raw_vec.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/vec.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/str/mod.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/str/lossy.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/string.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/alloc.rs
+
+/Users/apple/Desktop/wasm-hello/target/release/deps/bumpalo-da40e57be44a621c.d: /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/lib.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/mod.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/raw_vec.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/vec.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/str/mod.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/str/lossy.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/string.rs /Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/alloc.rs
+
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/lib.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/mod.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/raw_vec.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/vec.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/str/mod.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/str/lossy.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/collections/string.rs:
+/Users/apple/.cargo/registry/src/github.com-1ecc6299db9ec823/bumpalo-2.3.0/src/alloc.rs:

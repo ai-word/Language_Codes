@@ -1,0 +1,12 @@
+[package]
+name = "wasm-hello"
+version = "0.1.0"
+authors = ["刘玉刚 <huayue430@126.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+cargo-generate = "0.2"
