@@ -106,14 +106,8 @@ class visitSpider(object):
              url = self.urls[rm]
              response = request.request('GET', url, headers=self.heasers[random.randint(0, len(self.heasers)-1)])
              print(url, response.status, listNum,rm)
-             # time.sleep(1)
              timeNum += 1
              listNum += 1
-             # time.sleep(2)
-             # if timeNum % 50 == 0:
-             #    timeNum =0
-             #    listNum=0
-             #    self.readFile()
 
 def Main():
     vi = visitSpider()
