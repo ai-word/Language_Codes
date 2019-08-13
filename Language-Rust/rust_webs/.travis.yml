@@ -1,0 +1,36 @@
+language: rust
+sudo: false
+dist: trusty
+
+cache:
+  cargo: true
+  apt: true
+
+matrix:
+  include:
+    - rust: stable
+    - rust: beta
+    - rust: nightly
+  allow_failures:
+    - rust: nightly
+
+env:
+  global:
+    # - RUSTFLAGS="-C link-dead-code"
+    - OPENSSL_VERSION=openssl-1.0.2
+
+before_install:
+  - sudo add-apt-repository -y ppa:0k53d-karl-f830m/openssl
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq libssl-dev libelf-dev libdw-dev cmake gcc binutils-dev libiberty-dev
+
+# Add clippy
+before_script:
+  - |
+    if [[ "$TRAVIS_RUST_VERSION" == "nightly" ]]; then
+        ( ( cargo install clippy && export CLIPPY=true ) || export CLIPPY=false );
+    fi
+  - export PATH=$PATH:~/.cargo/bin
+
+script:
+  - cargo check --all

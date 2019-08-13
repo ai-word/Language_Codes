@@ -1,0 +1,18 @@
+[package]
+name = "protobuf-example"
+version = "0.1.0"
+authors = ["kingxsp <jin_hb_zh@126.com>"]
+workspace = ".."
+edition = "2018"
+
+[dependencies]
+bytes = "0.4"
+futures = "0.1"
+env_logger = "0.6"
+derive_more = "0.14"
+prost = "0.4.0"
+prost-derive = "0.4.0"
+
+actix = "0.8.1"
+actix-web = "1.0.0-rc"
+actix-protobuf = "0.4.0"

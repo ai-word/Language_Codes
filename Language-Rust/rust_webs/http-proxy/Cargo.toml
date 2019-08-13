@@ -1,0 +1,21 @@
+[package]
+name = "http-proxy"
+version = "0.1.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+edition = "2018"
+workspace = ".."
+
+[[bin]]
+name = "proxy"
+path = "src/main.rs"
+
+[[bin]]
+name = "proxy-example-server"
+path = "src/server.rs"
+
+[dependencies]
+actix-rt = "0.2"
+actix-web = "1.0.0-beta.4"
+
+env_logger = "0.5"
+futures = "0.1"

@@ -1,0 +1,14 @@
+[package]
+name = "template-askama"
+version = "0.1.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+workspace = ".."
+edition = "2018"
+
+[dependencies]
+actix-web = "1.0.0-beta.4"
+env_logger = "0.6"
+askama = "0.8"
+
+[build-dependencies]
+askama = "0.8"

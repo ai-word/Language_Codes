@@ -1,0 +1,23 @@
+[package]
+name = "websocket"
+version = "0.1.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+edition = "2018"
+workspace = ".."
+
+[[bin]]
+name = "websocket-server"
+path = "src/main.rs"
+
+#[[bin]]
+#name = "websocket-client"
+#path = "src/client.rs"
+
+[dependencies]
+actix = "0.8.1"
+actix-web = "1.0.0-beta.4"
+actix-web-actors = "1.0.0-beta.4"
+actix-files = "0.1.0-beta.4"
+env_logger = "0.6"
+futures = "0.1"
+bytes = "0.4"
